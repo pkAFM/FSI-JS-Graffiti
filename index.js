@@ -4,12 +4,10 @@ header.style.backgroundColor = "#A19FBC"
 header.style.color = "#1C11B6"
 
 
-
-
 let dogImages = document.querySelectorAll('.dog-image')
 for(let i = 0; i < dogImages.length; i++){
 	dogImages[i].style.borderRadius = '10px'
-	dogImages[i].style.transform = 'rotate(180deg)'
+	dogImages[i].style.transform = 'rotate(25deg)'
 }
 
 let footer = document.querySelector('.footer')
